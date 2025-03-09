@@ -20,7 +20,7 @@ int	main()
 	printf("Inserisci il valore double: ");
 	scanf("%lf", &d);
 
-	printf("1. s + 10 * l = %ld\n", s + 10 * l); // Ricorda che lo specificatore di formato dipende dal RISULTATO dell'operazione, ovvero dal tipo di dato che ha maggiore precisione (es: short * long long int vuole %lld)
+	printf("1. s + 10 * l = %ld\n", s + 10 * l); // Ricorda che lo specificatore di formato dipende dal RISULTATO dell'operazione, ovvero dal tipo di dato che ha maggiore precisione (per capirci, il tipo di dato più grande) (es: short * long long int vuole %lld)
 	printf("2. (s + i) * l = %ld\n", (s + i) * l);
 	printf("3. (s + i) * l + f = %.2f\n", (s + i) * l + f); // %.2f significa che sto approssimando il float a due cifre decimali 
 	printf("4. s / f + sin(f) = %.2f\n", s / f + sin(f));	
