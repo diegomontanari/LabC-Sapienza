@@ -14,7 +14,7 @@ The **Euclidean Algorithm** efficiently computes the **Greatest Common Divisor (
 
 It follows this mathematical relation:
 
-![1D9C7759-26D7-441A-9D37-3F700B11052F_4_5005_c](https://github.com/user-attachments/assets/b0a94b44-f18a-48eb-a095-a001f7aa4f67)
+![1D9C7759-26D7-441A-9D37-3F700B11052F_4_5005_c](https://github.com/user-attachments/assets/b60d6b2d-eb11-4ef5-9f74-86c438ed1bc1)
 
 where `%` is the remainder operator. The process repeats until `b` becomes `0`, at which point `a` is the GCD.
 
