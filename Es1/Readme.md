@@ -1,3 +1,5 @@
+# Calculation of GCD and lcm (Italian MCD and mcm)
+
 **Calculate GCD**: Use **Euclidean Algorithm**.  
 **Calculate LCM**: Use the formula:
 
