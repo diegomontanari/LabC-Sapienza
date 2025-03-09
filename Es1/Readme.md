@@ -1,9 +1,8 @@
 **Calculate GCD**: Use **Euclidean Algorithm**.  
 **Calculate LCM**: Use the formula:
 
-\[
-LCM(a,b) = \frac{|a \cdot b|}{GCD(a,b)}
-\]
+![3F7BDE10-990B-4A8F-B0C6-687294794AFA_4_5005_c](https://github.com/user-attachments/assets/5f4f41f1-1c25-4dce-a8a2-ca52f23bb791)
+
 
 # Euclidean Algorithm for GCD
 
@@ -13,9 +12,7 @@ The **Euclidean Algorithm** efficiently computes the **Greatest Common Divisor (
 
 It follows this mathematical relation:
 
-\[
-GCD(a, b) = GCD(b, a \mod b)
-\]
+![1D9C7759-26D7-441A-9D37-3F700B11052F_4_5005_c](https://github.com/user-attachments/assets/b0a94b44-f18a-48eb-a095-a001f7aa4f67)
 
 where `%` is the remainder operator. The process repeats until `b` becomes `0`, at which point `a` is the GCD.
 
