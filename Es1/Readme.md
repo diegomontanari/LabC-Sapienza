@@ -46,5 +46,4 @@ Newton's method finds a single root of a function \( f(x) \) starting from an in
 
 To find the square root of a number \( z \), two specific functions are widely used:
 
-![1FDF1BE4-1B26-4528-8DF2-00F8A1000FDE_4_5005_c](https://github.com/user-attachments/assets/931a7156-846f-4b65-8d6a-3cb332498235)
-
+![3BBDC5E1-3ED7-428C-A3F1-A2635E7E57E8_4_5005_c](https://github.com/user-attachments/assets/ed02a2a5-2619-46b7-b719-de0d3691ee69)
