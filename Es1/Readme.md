@@ -48,16 +48,16 @@ To find the square root of a number \( z \), two specific functions are widely u
 
 ![6273A2B1-341B-4D43-A614-E233E5D95E7D_4_5005_c](https://github.com/user-attachments/assets/42ca18ab-430f-4dcd-8393-f472fc5f6de5)
 
-and
+and:
 
 ![3BBDC5E1-3ED7-428C-A3F1-A2635E7E57E8_4_5005_c](https://github.com/user-attachments/assets/ed02a2a5-2619-46b7-b719-de0d3691ee69)
 
-Babylonian method (the first method):
+**Babylonian method (the first method):**
 
 - Fast and converges quickly.
 - Involves a division in each iteration, which can be more costly when dealing with very large integers.
 
-Alternative method:
+**Alternative method:**
 
 -Avoids division and uses only multiplications.
 -Faster for very large numbers, especially on hardware where division is slower than multiplication.
