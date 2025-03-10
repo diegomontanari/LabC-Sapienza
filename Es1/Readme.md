@@ -36,3 +36,19 @@ where `%` is the remainder operator. The process repeats until `b` becomes `0`, 
 GCD(48, 18) = 6
 \]
 
+
+
+### Square Roots Using Newton's Iterative Method
+
+Newton's method finds a single root of a function \( f(x) \) starting from an initial guess of the root. This method converges very quickly to the solution, requiring only a few operations per iteration and is computationally easy to implement (which is why it is used in various libraries, including the C Standard Library). It is based on the iteration expressed as:
+
+\[
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+\]
+
+To find the square root of a number \( z \), two specific functions are widely used:
+
+\[
+f(x) = x^2 - z
+\]
+
