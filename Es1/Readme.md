@@ -44,9 +44,9 @@ Newton's method finds a single root of a function \( f(x) \) starting from an in
 
 ![1FDF1BE4-1B26-4528-8DF2-00F8A1000FDE_4_5005_c](https://github.com/user-attachments/assets/2852e5a9-399e-4738-b1fc-fc38c2186322)
 
-To find the square root of a number \( z \), two specific functions are widely used:
+To find the square root of a number \( z \), these two specific functions are widely used:
 
-![6273A2B1-341B-4D43-A614-E233E5D95E7D_4_5005_c](https://github.com/user-attachments/assets/42ca18ab-430f-4dcd-8393-f472fc5f6de5) and: ![3BBDC5E1-3ED7-428C-A3F1-A2635E7E57E8_4_5005_c](https://github.com/user-attachments/assets/ed02a2a5-2619-46b7-b719-de0d3691ee69)
+![6273A2B1-341B-4D43-A614-E233E5D95E7D_4_5005_c](https://github.com/user-attachments/assets/42ca18ab-430f-4dcd-8393-f472fc5f6de5) ![3BBDC5E1-3ED7-428C-A3F1-A2635E7E57E8_4_5005_c](https://github.com/user-attachments/assets/ed02a2a5-2619-46b7-b719-de0d3691ee69)
 
 **Babylonian method (the first method):**
 
