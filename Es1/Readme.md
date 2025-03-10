@@ -67,4 +67,5 @@ In general, it is true that division is more computationally expensive than mult
 ![5E86C0F8-9A8B-4197-8A53-21F3CAC1EBC1](https://github.com/user-attachments/assets/f09ec5cd-63a0-4207-b008-c049c1646a3e)
 ![85DCA0B9-8ED4-435C-A824-BF9F7E932AAF](https://github.com/user-attachments/assets/e95a9493-ebc5-4374-8d68-a5ffb16cf0f3)
 ![CD589EBC-C673-4437-9E21-488DF9BBA710](https://github.com/user-attachments/assets/a956e5f2-504e-49ed-aaa2-a6098667299b)
-![C3CABB78-FC40-44EF-B468-6E8CE58305BC](https://github.com/user-attachments/assets/55050d3e-1b9e-49c0-a8e5-07478aa82205)
+![65C68697-798A-48AB-BEF5-D201269BF32E](https://github.com/user-attachments/assets/0dbe3051-4e27-49ad-9014-e0845686730b)
+
