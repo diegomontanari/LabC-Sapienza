@@ -6,7 +6,7 @@
 ![3F7BDE10-990B-4A8F-B0C6-687294794AFA_4_5005_c](https://github.com/user-attachments/assets/5f4f41f1-1c25-4dce-a8a2-ca52f23bb791)
 
 
-## Euclidean Algorithm for GCD
+### Euclidean Algorithm for GCD
 
 The **Euclidean Algorithm** efficiently computes the **Greatest Common Divisor (GCD)** of two integers. The GCD is the largest number that divides both integers without a remainder.
 
