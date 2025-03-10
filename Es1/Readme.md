@@ -1,4 +1,4 @@
-## Calculation of GCD and lcm (Italian MCD and mcm)
+# Calculation of GCD and lcm (Italian MCD and mcm)
 
 **Calculate GCD**: Use **Euclidean Algorithm**.  
 **Calculate LCM**: Use the formula:
@@ -38,7 +38,7 @@ GCD(48, 18) = 6
 
 
 
-## Square Roots Using Newton's Iterative Method
+# Square Roots Using Newton's Iterative Method
 
 Newton's method finds a single root of a function \( f(x) \) starting from an initial guess of the root. This method converges very quickly to the solution, requiring only a few operations per iteration and is computationally easy to implement (which is why it is used in various libraries, including the C Standard Library). It is based on the iteration expressed as:
 
