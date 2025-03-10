@@ -8,7 +8,7 @@ double sqrt_newton(double x) {
     }
 
     double Rn = x; // Impostiamo R0 = x
-    double Rn_1 = Rn; // Variabile per tenere traccia della iterazione precedente
+    double Rn_1 = 0; // Variabile per tenere traccia della iterazione precedente
     double epsilon = 0.000001; // Precisione desiderata
 
     while (fabs(Rn - Rn_1) > epsilon) // fabs sta per "floating-point absolute value" e restituisce il valore assoluto di un numero in virgola mobile qualunque sia il tipo (float, double o long double). abs fa lo stesso per gli int, ma non va bene per long e long long (in quel caso usi labs e llabs). Disuguaglianza di genere (tipo)...
