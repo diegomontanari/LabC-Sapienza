@@ -14,7 +14,7 @@ double sqrt_newton(double x) {
     while (fabs(Rn - Rn_1) > epsilon) // fabs sta per "floating-point absolute value" e restituisce il valore assoluto di un numero in virgola mobile qualunque sia il tipo (float, double o long double). abs fa lo stesso per gli int, ma non va bene per long e long long (in quel caso usi labs e llabs). Disuguaglianza di genere (tipo)...
     {
         Rn_1 = Rn;
-        Rn = (Rn_1 + x / Rn_1) / 2; // Formula di Newton
+        Rn = (Rn_1 + x / Rn_1) / 2; // Formula di Newton (Rn equivale al risultato della radice)
     }
 
     return Rn;
