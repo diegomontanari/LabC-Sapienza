@@ -63,5 +63,6 @@ In the case of very large integers, the version that uses only multiplications (
 In general, it is true that division is more computationally expensive than multiplication, especially when working with very large integers, however, the actual effectiveness also depends on the specific hardware architecture used for the calculations.
 
 **Example of the Babylonian method:**
+
 ![5E86C0F8-9A8B-4197-8A53-21F3CAC1EBC1](https://github.com/user-attachments/assets/f09ec5cd-63a0-4207-b008-c049c1646a3e)
 
