@@ -7,7 +7,7 @@ double sqrt_newton(double x) {
         return -1; // Errore per numero negativo
     }
 
-    double Rn = x; // Impostiamo R0 = x
+    double Rn = x; // Impostiamo R0 (chiamato anche Rn) = x
     double Rn_1 = 0; // Variabile per tenere traccia della iterazione precedente
     double epsilon = 0.000001; // Precisione desiderata
 
