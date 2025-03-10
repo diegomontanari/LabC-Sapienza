@@ -1,4 +1,4 @@
-# Calculation of GCD and lcm (Italian MCD and mcm)
+## Calculation of GCD and lcm (Italian MCD and mcm)
 
 **Calculate GCD**: Use **Euclidean Algorithm**.  
 **Calculate LCM**: Use the formula:
@@ -6,11 +6,11 @@
 ![3F7BDE10-990B-4A8F-B0C6-687294794AFA_4_5005_c](https://github.com/user-attachments/assets/5f4f41f1-1c25-4dce-a8a2-ca52f23bb791)
 
 
-# Euclidean Algorithm for GCD
+## Euclidean Algorithm for GCD
 
 The **Euclidean Algorithm** efficiently computes the **Greatest Common Divisor (GCD)** of two integers. The GCD is the largest number that divides both integers without a remainder.
 
-## How It Works
+#### How It Works
 
 It follows this mathematical relation:
 
@@ -26,7 +26,7 @@ where `%` is the remainder operator. The process repeats until `b` becomes `0`, 
 
 ---
 
-## Example: GCD of 48 and 18
+### Example: GCD of 48 and 18
 
 1. \( 48 \mod 18 = 12 \)
 2. \( 18 \mod 12 = 6 \)
@@ -38,17 +38,13 @@ GCD(48, 18) = 6
 
 
 
-### Square Roots Using Newton's Iterative Method
+## Square Roots Using Newton's Iterative Method
 
 Newton's method finds a single root of a function \( f(x) \) starting from an initial guess of the root. This method converges very quickly to the solution, requiring only a few operations per iteration and is computationally easy to implement (which is why it is used in various libraries, including the C Standard Library). It is based on the iteration expressed as:
 
-\[
-x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-\]
+![1FDF1BE4-1B26-4528-8DF2-00F8A1000FDE_4_5005_c](https://github.com/user-attachments/assets/2852e5a9-399e-4738-b1fc-fc38c2186322)
 
 To find the square root of a number \( z \), two specific functions are widely used:
 
-\[
-f(x) = x^2 - z
-\]
+![1FDF1BE4-1B26-4528-8DF2-00F8A1000FDE_4_5005_c](https://github.com/user-attachments/assets/931a7156-846f-4b65-8d6a-3cb332498235)
 
