@@ -1,25 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int	main()
-{	
-	int *n = 0; // n è un puntatore, *n è il valore associato.
+int main() 
+{
+    int *n = (int *) malloc(sizeof(int));  // Allocazione di memoria per un intero n (num elementi)
+    if (!n)
+        return 1;
+    
 
-	printf("Inserisci un numero: ");
-	scanf("%d", n);
-	
-	n = (int *) malloc(*n * sizeof(int));
-	if (!n)
-		return 1;
+    printf("Inserisci un numero: ");
+    scanf("%d", n); // Uso n e non &n perché il puntatore è già un buffer
 
-	for (int i = 0; i < *n; i++)
+    int *temp = (int *) malloc(*n * sizeof(int));  // Allocazione di memoria per n elementi
+    if (!temp) 
 	{
-		printf("0X%p", n); //Stampa indirizzo
-		printf("%d", *n); // Stampa il valore associato
-		n++;
-	}
-	free();
-	return 0;
+        free(n);
+        return 1;
+    }
+
+    for (int i = 0; i < *n; i++) 
+	{
+        printf("0X%p ", (void *)(temp + i));  // Stampa indirizzo (sposto temp di i posti)
+        printf("%d\n", *(temp + i));  // Stampa il valore associato
+    }
+
+    free(temp);
+    free(n); // n è invariato quindi posso liberarlo
+    return 0;
 }
 
 /*
