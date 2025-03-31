@@ -1,6 +1,6 @@
 ## The Power of Flags
 
-**NOTE: FLAGS ARE EXTREMELY POWERFUL.**
+**NOTE: FLAGS ARE EXTREMELY POWERFUL 🔥**
 
 Flags in C are variables (usually of type `int` or `bool`) that help track a state. In this case, the `newWord` flag tells us whether the next character should be uppercase or not.
 
@@ -12,7 +12,7 @@ Flags in C are variables (usually of type `int` or `bool`) that help track a sta
 - When `newWord = 0` → It means we are inside a word → We convert subsequent letters to lowercase.
 - When we find a space or a symbol → We set `newWord = 1`, so that when we find the next letter, we know it's a new word.
 
-qua ci metto foto
+<img width="889" alt="Screenshot 2025-03-31 at 8 29 08 AM" src="https://github.com/user-attachments/assets/41119923-4407-4ecc-9d7c-c0bd5c439493" />
 
 #### Why is this useful?
 
