@@ -21,8 +21,8 @@ Flags in C are variables (usually of type `int` or `bool`) that help track a sta
 - It simplifies the loop: you only need to iterate through the string once. (Without using flags, you might have to traverse the string separately for each word.)
 - It works for any text, regardless of how many spaces there are or whether the letters are already uppercase or lowercase.
 
-#### Conclusion
+#### CONCLUSION 🚀
 
-🚀 Flags are a powerful trick in C (and programming in general) because they allow you to track a state without writing complex code or using deeply nested conditions.
+Flags are a powerful trick in C (and programming in general) because they allow you to track a state without writing complex code or using deeply nested conditions.
 
 
